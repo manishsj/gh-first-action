@@ -7,6 +7,6 @@ export function HelpBox({ title, text }) {
       <p>{text}</p>
     </article>
   );
-}
+};
 
 // export default HelpBox;

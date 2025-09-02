@@ -27,6 +27,6 @@ export function HelpArea() {
       ))}
     </section>
   );
-}
+};
 
 // export default HelpArea;
