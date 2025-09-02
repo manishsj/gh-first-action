@@ -2,7 +2,7 @@ import { useState } from 'react';
 
 import HelpArea from './HelpArea';
 
-function MainContent() {
+export function MainContent() {
   const [helpVisible, setHelpVisible] = useState(false);
 
   function toggleHelp() {
@@ -17,4 +17,4 @@ function MainContent() {
   );
 }
 
-export default MainContent;
+// export default MainContent;
