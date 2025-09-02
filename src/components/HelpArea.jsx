@@ -19,7 +19,7 @@ const HELP_ITEMS = [
   },
 ];
 
-export function HelpArea() {
+function HelpArea() {
   return (
     <section data-testid="help-area" id="help-area">
       {HELP_ITEMS.map((item) => (
@@ -27,6 +27,6 @@ export function HelpArea() {
       ))}
     </section>
   );
-};
+}
 
-// export default HelpArea;
+export default HelpArea;
