@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import './HelpBox.css';
 
 function HelpBox({ title, text }) {
